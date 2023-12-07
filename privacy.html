@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      iFitness: Where Health Meets Its Harmony, and Wellness Becomes a Lifestyle
+    </title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          >iFitness<img
+            src="logo.jpg"
+            style="height: 40px; border-radius: 15px; margin-left: 5px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Others
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Virtual Classes</a></li>
+                <li><a class="dropdown-item" href="#">Progress Tracking</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Community</a></li>
+                <li><a class="dropdown-item" href="#">Support</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+            <div class="mx-2" style="display: flex">
+              <button
+                class="btn btn-danger"
+                style="margin-left: 5px"
+                data-bs-toggle="modal"
+                data-bs-target="#loginModal"
+              >
+                Login
+              </button>
+              <button
+                class="btn btn-danger"
+                style="margin-left: 5px"
+                data-bs-slide="modal"
+                data-bs-target="#signupModal"
+              >
+                signUp
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Login Modal -->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="loginModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Login to iFitness
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signup -->
+    <div
+      class="modal fade"
+      id="signupModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="signupModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="signupModalLabel">
+              Get an iFitness Account
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="form-group">
+                <label for="cexampleInputPassword1">Confirm Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="cexampleInputPassword1"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Creat Account
+              </button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="height: auto">
+      <h3>
+        Welcome to iFitness! This Privacy Policy explains how we collect, use,
+        disclose, and safeguard your personal information when you use our
+        website and services. By accessing or using iFitness, you consent to the
+        practices outlined in this Privacy Policy.
+      </h3>
+
+      <p>
+        <b>1. Information We Collect:</b> We collect both personally
+        identifiable information (such as name, email, and address) and
+        non-personally identifiable information (such as device information,
+        usage patterns, and location data) to enhance your experience and
+        improve our services.
+      </p>
+
+      <p>
+        <b>2. How We Use Your Information:</b> Your information is used to
+        personalize your experience, provide customer support, process
+        transactions, and improve our services. We may also use aggregated and
+        anonymized data for analytical purposes and to enhance the overall user
+        experience.
+      </p>
+
+      <p>
+        <b>3. Information Sharing:</b> We do not sell, trade, or otherwise
+        transfer your personally identifiable information to outside parties.
+        However, we may share your information with trusted third parties who
+        assist us in operating our website, conducting our business, or
+        servicing you.
+      </p>
+
+      <p>
+        <b>4. Security Measures:</b> We employ industry-standard security
+        measures to protect your information. However, no method of transmission
+        over the internet or electronic storage is completely secure. We
+        encourage you to use strong passwords and keep them confidential.
+      </p>
+
+      <p>
+        <b>5. Cookies and Tracking Technologies:</b> We use cookies and similar
+        technologies to collect information and enhance your experience. You can
+        adjust your browser settings to disable cookies, but this may affect
+        your ability to access certain features.
+      </p>
+
+      <p>
+        <b>6. Third-Party Links:</b> Our website may contain links to
+        third-party websites. We have no control over the content and practices
+        of these sites, and we are not responsible for their privacy policies.
+        We encourage you to review the privacy policies of these third-party
+        websites.
+      </p>
+
+      <p>
+        <b>7. Children's Privacy:</b> Our services are not directed to
+        individuals under the age of 13. We do not knowingly collect personal
+        information from children. If you are a parent or guardian and become
+        aware that your child has provided us with personal information, please
+        contact us, and we will take steps to delete such information.
+      </p>
+
+      <p>
+        <b>8. Changes to this Privacy Policy:</b> We reserve the right to modify
+        this Privacy Policy at any time. We will notify you of any changes by
+        posting the new policy on this page. Your continued use of iFitness
+        after changes are made constitutes your acceptance of the new policy.
+      </p>
+    </div>
+
+    <footer
+      class="container"
+      style="
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        justify-content: center;
+      "
+    >
+      <p>
+        © 2020-2021 iFitness, Inc. · <a href="privacy.html">Privacy</a> ·
+        <a href="terms.html">Terms</a>
+      </p>
+      <p class="float-right" style="margin-left: 55rem">
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+  </body>
+</html>
