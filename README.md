@@ -40,9 +40,10 @@ These technologies work harmoniously to create a visually appealing and user-fri
 
 ## Static view of website
 
-![boot-3](https://github.com/Ruchithrt/iFitness/assets/83587252/895c0ea4-4bba-4449-af97-b3065cf0652e)
-![boot-2](https://github.com/Ruchithrt/iFitness/assets/83587252/90962e65-3a2a-443f-8e93-4681fcecf31f)
 ![boot-1](https://github.com/Ruchithrt/iFitness/assets/83587252/39d24c0a-af88-4477-9289-d2bdf68c4529)
+![boot-2](https://github.com/Ruchithrt/iFitness/assets/83587252/90962e65-3a2a-443f-8e93-4681fcecf31f)
+![boot-3](https://github.com/Ruchithrt/iFitness/assets/83587252/895c0ea4-4bba-4449-af97-b3065cf0652e)
+
 
 ## Demo video
 
