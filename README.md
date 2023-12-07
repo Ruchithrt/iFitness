@@ -15,6 +15,18 @@ iFitness is a comprehensive wellness platform designed to empower users on their
 - **Mindful Wellness Hub:** Nourish your mind with guided meditation, stress-relief techniques, and resources for mental well-being.
 - **Community Engagement:** Connect with like-minded individuals, share your fitness journey, and participate in challenges.
 
+## Built With
+
+iFitness is crafted using essential web technologies to deliver a clean and responsive user interface. The key technologies used in the development of iFitness include:
+
+- **HTML5:** Provides the structural foundation for building web pages.
+- **CSS3:** Styles the HTML elements, ensuring an aesthetically pleasing and consistent layout.
+- **Bootstrap:** A powerful front-end framework that accelerates development, offering a responsive grid system and pre-built components.
+
+These technologies work harmoniously to create a visually appealing and user-friendly fitness platform. The use of HTML and CSS ensures a solid foundation, while Bootstrap streamlines the design process and ensures a consistent experience across different devices.
+
+
+
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/iFitness.git`
