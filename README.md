@@ -2,10 +2,13 @@
 
 Welcome to iFitness - Where Health Meets Its Harmony, and Wellness Becomes a Lifestyle
 
+<hr>
 
 ## Introduction
 
 iFitness is a comprehensive wellness platform designed to empower users on their fitness journey. Seamlessly blending personalized workout plans, nutritious meal guides, and expert guidance, iFitness caters to individuals seeking a holistic approach to health.
+
+<hr>
 
 ## Features
 
@@ -14,6 +17,8 @@ iFitness is a comprehensive wellness platform designed to empower users on their
 - **Virtual Fitness Classes:** Engage in dynamic virtual classes, from high-intensity workouts to serene yoga sessions.
 - **Mindful Wellness Hub:** Nourish your mind with guided meditation, stress-relief techniques, and resources for mental well-being.
 - **Community Engagement:** Connect with like-minded individuals, share your fitness journey, and participate in challenges.
+
+<hr>
 
 ## Built With
 
@@ -25,7 +30,7 @@ iFitness is crafted using essential web technologies to deliver a clean and resp
 
 These technologies work harmoniously to create a visually appealing and user-friendly fitness platform. The use of HTML and CSS ensures a solid foundation, while Bootstrap streamlines the design process and ensures a consistent experience across different devices.
 
-
+<hr>
 
 ## Installation
 
@@ -33,10 +38,14 @@ These technologies work harmoniously to create a visually appealing and user-fri
 2. Navigate to the project directory: `cd iFitness`
 3. Open `index.html` in your preferred web browser.
 
+<hr>
+
 ## Usage
 
 - Explore different pages, workout plans, meal guides, and community features.
 - Customize the content to suit your specific fitness and wellness offerings.
+
+<hr>
 
 ## Static view of website
 
