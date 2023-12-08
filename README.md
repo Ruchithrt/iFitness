@@ -1,6 +1,6 @@
 # iFitness
 
-Welcome to iFitness - Where Health Meets Its Harmony, and Wellness Becomes a Lifestyle
+Welcome to iFitness - Where Health Meets Its Harmony, and Wellness Becomes a Lifestyle.
 
 <hr>
 
